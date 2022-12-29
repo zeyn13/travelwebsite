@@ -1,5 +1,5 @@
-<?
+<?php
 
-$conn = mysqli_connect('localhost8080', 'root', '', 'user_db');
+$conn = mysqli_connect('localhost8080','root','','user_db');
 
 ?>

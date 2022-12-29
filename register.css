@@ -100,24 +100,10 @@ body {
   visibility: visible;
 }
 
-.form button {
-  background-color: rgb(175, 175, 175);
-  border: 1px solid black;
-  border-radius: 4px;
-  color: #fff;
-  display: block;
-  font-family: inherit;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
+.form-control select {
   width: 100%;
-}
-
-.login {
-  border: 1px solid black;
-  display: block;
-  margin: 20px 120px;
-  text-align: center;
-  font-size: 16px;
-  background-color: rgb(178, 178, 178);
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
 }

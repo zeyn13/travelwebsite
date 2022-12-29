@@ -1,3 +1,8 @@
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,40 +20,45 @@
       <form id="form" class="form">
         <div class="form-control">
           <label for="username">Username</label>
-          <input type="text" placeholder="Username" id="username" />
+          <input type="text" name="username" placeholder="Username" id="username" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Email</label>
-          <input type="email" placeholder="Email" id="email" />
+          <input type="email" name="email" placeholder="Email" id="email" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Password</label>
-          <input type="password" placeholder="Password" id="password" />
+          <input type="password" name="password" placeholder="Password" id="password" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Password check</label>
-          <input type="password" placeholder="Password two" id="password2" />
+          <input type="password" name="cpassword" placeholder="Password two" id="password2" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
-        <button>Submit</button>
-
-        <div class="login">
-          <a href="login.html">Log in now</a>
+        <div class="form-control">
+        <select name="user_type">
+         <option value="user">user</option>
+         <option value="admin">admin</option>
+      </select>
+          
+          <input class="form-btn" type="submit" name="submit" value="Register now">
+        <p>Already have an account ? <a href="login.php">Login now</p>
         </div>
-      </form>
-    </div>
+          </div>
+        
 
+        
     <script>
       const form = document.getElementById("form");
       const username = document.getElementById("username");

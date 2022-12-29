@@ -26,7 +26,7 @@
       <div>
         <input type="submit" value="Login" class="buton" />
         <div class="signup-link">
-          Not a member? <a href="register.html">Register</a>
+          Not a member? <a href="register.php">Register</a>
         </div>
       </div>
     </form>

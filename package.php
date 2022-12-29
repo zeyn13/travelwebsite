@@ -24,14 +24,14 @@
   <body>
     <!-- header section -->
     <section class="header">
-      <a href="home.html" class="logo">Travel</a>
+      <a href="home.php" class="logo">Travel</a>
 
       <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="package.html">Package</a>
-        <a href="book.html">Book</a>
-        <a href="logout.html">Logout</a>
+        <a href="home.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="package.php">Package</a>
+        <a href="book.php">Book</a>
+        <a href="logout.php">Logout</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>
@@ -59,7 +59,7 @@
               sunt sapiente laborum voluptatem quas quae repudiandae rem unde
               quam, odio illum.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -75,7 +75,7 @@
               assumenda corporis, porro molestiae iste debitis aperiam a fugiat
               ratione? Alias, doloribus?
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -91,7 +91,7 @@
               exercitationem, eos non sequi rerum illo voluptates minus dolores
               laudantium nemo soluta! Alias.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
         <!-- BUNDDAAAAAAAAAAAA -->
@@ -107,7 +107,7 @@
               autem eum corporis saepe, ratione, quidem sit molestiae atque
               eaque repudiandae eveniet delectus odio sed!
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -123,7 +123,7 @@
               quam nostrum! Aliquam deserunt enim eaque fuga esse eligendi ut
               explicabo fugit.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -139,7 +139,7 @@
               cumque accusantium consectetur saepe corporis vel pariatur hic,
               dignissimos, qui aut ea?
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -155,7 +155,7 @@
               voluptatibus? Numquam ad, enim cumque necessitatibus ipsum sunt!
               Cum eos sequi iure debitis exercitationem?
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -171,7 +171,7 @@
               cupiditate sit rerum, facilis autem quisquam molestias impedit
               provident libero est reiciendis!
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -187,7 +187,7 @@
               dolorem quisquam voluptate officia minima porro magni veritatis
               quos illum. Ex, odit atque.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -203,7 +203,7 @@
               asperiores enim doloribus ab? Similique pariatur architecto
               veritatis eligendi quibusdam esse sed.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -219,7 +219,7 @@
               sequi exercitationem natus repellendus ipsam eius! Nulla
               necessitatibus reiciendis quia harum nisi.
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
 
@@ -235,7 +235,7 @@
               error esse impedit suscipit obcaecati nobis iste, asperiores
               tempore vero, porro explicabo!
             </p>
-            <a href="book.html" class="btn">Book now</a>
+            <a href="book.php" class="btn">Book now</a>
           </div>
         </div>
       </div>
@@ -249,10 +249,10 @@
       <div class="box-container">
         <div class="box">
           <h3>Quick links</h3>
-          <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
-          <a href="about.html"><i class="fas fa-angle-right"></i>About</a>
-          <a href="package.html"><i class="fas fa-angle-right"></i>Package</a>
-          <a href="book.html"><i class="fas fa-angle-right"></i>Book</a>
+          <a href="home.php"><i class="fas fa-angle-right"></i>Home</a>
+          <a href="about.php"><i class="fas fa-angle-right"></i>About</a>
+          <a href="package.php"><i class="fas fa-angle-right"></i>Package</a>
+          <a href="book.php"><i class="fas fa-angle-right"></i>Book</a>
         </div>
 
         <div class="box">

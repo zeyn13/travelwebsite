@@ -24,14 +24,14 @@
   <body>
     <!-- header section -->
     <section class="header">
-      <a href="home.html" class="logo">Travel</a>
+      <a href="home.php" class="logo">Travel</a>
 
       <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="package.html">Package</a>
-        <a href="book.html">Book</a>
-        <a href="logout.html">Logout</a>
+        <a href="home.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="package.php">Package</a>
+        <a href="book.php">Book</a>
+        <a href="logout.php">Logout</a>
       </nav>
 
       <div id="menu-btn" class="fas fa-bars"></div>

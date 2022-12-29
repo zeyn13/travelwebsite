@@ -1,6 +1,5 @@
 <?php include 'config.php';?>
 <?php
-
 if(isset($_POST['submit'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
@@ -15,12 +14,12 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){
 
-      $error[] = 'User already exist!';
+      $error[] = 'user already exist!';
 
    }else{
 
       if($pass != $cpass){
-         $error[] = 'Password not matched!';
+         $error[] = 'password not matched!';
       }else{
          $insert = "INSERT INTO user(name, email, password, user_type) VALUES('$name','$email','$pass','$user_type')";
          mysqli_query($conn, $insert);
@@ -29,8 +28,6 @@ if(isset($_POST['submit'])){
    }
 
 };
-
-
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +39,7 @@ if(isset($_POST['submit'])){
    <title>Register Form</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="loginstyle.css">
 
 </head>
 <body>
@@ -66,7 +63,7 @@ if(isset($_POST['submit'])){
          <option value="user">User</option>
          <option value="admin">Admin</option>
       </select>
-      <input type="submit" name="submit" value="register now" class="form-btn">
+      <input type="submit" name="submit" value="Register now" class="form-btn">
       <p>Already have an account? <a href="login.php">Login now</a></p>
    </form>
 

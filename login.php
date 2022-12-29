@@ -4,31 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="loginstyle.css" />
   </head>
   <body>
-    <h1>LOGIN</h1>
-    <br /><br />
-
-    <form action="#" method="post">
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" name="username" placeholder="Enter your username" />
-      </div>
-
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        name="password"
-        placeholder="Enter your password"
-      />
-      <div>
-        <input type="submit" value="Login" class="buton" />
-        <div class="signup-link">
-          Not a member? <a href="register.php">Register</a>
-        </div>
-      </div>
-    </form>
+    <div class="form-container">
+      <form action="" method="post">
+        <h3>Login now</h3>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          name="password"
+          required
+          placeholder="Enter your password"
+        /> 
+        <input
+          type="submit"
+          name="submit"
+          value="Login now"
+          class="form-btn"
+        />
+        <p>Don't have an ccount ? <a href="register.php">Register now</a></p>
+      </form>
+    </div>
   </body>
 </html>

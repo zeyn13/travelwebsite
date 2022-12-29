@@ -1,5 +1,7 @@
-<?php include 'config.php';?>
+<?php include("config.php");?>
+
 <?php
+
 if(isset($_POST['submit'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);

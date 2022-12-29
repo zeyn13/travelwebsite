@@ -36,40 +36,44 @@
     <!-- home section -->
     <section class="home">
 
-        <div class="swiper home-slider">
+    <div class="swiper home-slider">
+
+    <div class="swiper home-slider">
      
-           <div class="swiper-wrapper">
-     
-              <div class="swiper-slide slide" style="background:url(img/home-slide-1.jpg) no-repeat">
-                 <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>Travel arround the world</h3>
-                    <a href="package.php" class="btn">Discover more</a>
-                 </div>
-              </div>
-     
-              <div class="swiper-slide slide" style="background:url(img/home-slide-2.jpg) no-repeat">
-                 <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>Discover the new places</h3>
-                    <a href="package.php" class="btn">Discover more</a>
-                 </div>
-              </div>
-     
-              <div class="swiper-slide slide" style="background:url(img/home-slide-3.jpg) no-repeat">
-                 <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>Make your tour worthwhile</h3>
-                    <a href="package.php" class="btn">Discover more</a>
-                 </div>
-              </div>
-              
+     <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide" style="background:url(img/home-slide-1.jpg) no-repeat">
+           <div class="content">
+              <span>explore, discover, travel</span>
+              <h3>Travel arround the world</h3>
+              <a href="package.php" class="btn">Discover more</a>
            </div>
-     
-           <div class="swiper-button-next"></div>
-           <div class="swiper-button-prev"></div>
-     
         </div>
+
+        <div class="swiper-slide slide" style="background:url(img/home-slide-2.jpg) no-repeat">
+           <div class="content">
+              <span>explore, discover, travel</span>
+              <h3>Discover the new places</h3>
+              <a href="package.php" class="btn">Discover more</a>
+           </div>
+        </div>
+
+        <div class="swiper-slide slide" style="background:url(img/home-slide-3.jpg) no-repeat">
+           <div class="content">
+              <span>explore, discover, travel</span>
+              <h3>Make your tour worthwhile</h3>
+              <a href="package.php" class="btn">Discover more</a>
+           </div>
+        </div>
+        
+     </div>
+
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+
+  </div>
+
+</section>
      
      </section>
    
@@ -227,7 +231,7 @@
     <!-- js link -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    <script src="javascript.js"></script>
+    <script src="js.js"></script>
 </body>
 </body>
 </html>
